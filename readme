@@ -1,0 +1,471 @@
+# 🏦 Banking Customer & Transaction Analytics
+
+An end-to-end **Data Analytics project** analyzing customer profiles and transaction behavior using **PostgreSQL, Python, Pandas, NumPy, Power BI and DAX**.
+
+The project focuses on customer segmentation, transaction performance, channel usage, customer activity, RFM analysis and time-based trends to generate actionable business insights.
+
+---
+
+## 📌 Project Overview
+
+Banks generate large volumes of customer and transaction data. The objective of this project is to transform raw banking data into meaningful insights that can support:
+
+* Customer segmentation
+* Transaction performance analysis
+* Channel optimization
+* Customer activity monitoring
+* Customer value analysis
+* RFM-based customer segmentation
+* Business decision-making
+
+### Dataset at a Glance
+
+| Metric                         |     Value |
+| ------------------------------ | --------: |
+| Customers                      |     2,500 |
+| Transactions                   |   120,000 |
+| Total Transaction Value        | ~₹355.30M |
+| Average Transaction Value      |   ~₹2.96K |
+| Customers With No Transactions |       466 |
+
+---
+
+# 🎯 Business Objectives
+
+The analysis answers the following business questions:
+
+1. How is the customer base distributed across different segments?
+2. Which customer segments contribute the highest transaction value?
+3. Which transaction categories generate the highest value?
+4. Which categories have the highest transaction volume?
+5. Which banking channels are used most frequently?
+6. How many customers are inactive?
+7. Which customers demonstrate high transaction activity and value?
+8. How can customers be segmented using RFM analysis?
+9. What trends can be identified over time?
+10. What business actions can be recommended from the analysis?
+
+---
+
+# 🛠️ Tools & Technologies
+
+| Tool       | Purpose                                              |
+| ---------- | ---------------------------------------------------- |
+| PostgreSQL | Data querying and business analysis                  |
+| SQL        | Aggregation, joins and customer/transaction analysis |
+| Python     | Data preparation and exploratory analysis            |
+| Pandas     | Data manipulation and analysis                       |
+| NumPy      | Numerical analysis                                   |
+| Power BI   | Interactive dashboard development                    |
+| DAX        | Measures and analytical calculations                 |
+| GitHub     | Project documentation and version control            |
+
+---
+
+# 🔄 Project Workflow
+
+```text
+Raw Banking Data
+       ↓
+PostgreSQL
+       ↓
+SQL Analysis
+       ↓
+Python / Pandas / NumPy
+       ↓
+Data Preparation & Exploration
+       ↓
+Power BI
+       ↓
+DAX Measures
+       ↓
+Interactive Dashboard
+       ↓
+Business Insights & Recommendations
+```
+
+---
+
+# 👥 Customer Segmentation
+
+The customer base consists of four major segments:
+
+| Customer Segment | Customers |
+| ---------------- | --------: |
+| Mass Market      |     1,523 |
+| Affluent         |       572 |
+| High Net Worth   |       228 |
+| Student          |       177 |
+
+### Key Insight
+
+**Mass Market** is the largest customer segment, representing the majority of the customer base.
+
+---
+
+# 💳 Transaction Analysis
+
+The dataset contains **120,000 transactions** with an overall transaction value of approximately **₹355.30M**.
+
+### Transaction Type
+
+| Transaction Type | Approx. Total Value |
+| ---------------- | ------------------: |
+| Debit            |            ₹200.65M |
+| Credit           |            ₹154.65M |
+
+Debit transactions contribute a higher total transaction value than credit transactions.
+
+### Transaction Categories
+
+The analysis covers:
+
+* Salary
+* Transfer
+* Shopping
+* Loan Payment
+* Utilities
+* Travel
+* Investment
+* Dining
+* Cash Withdrawal
+
+### Key Findings
+
+* **Salary** has the highest total transaction value.
+* **Transfer** has the highest transaction volume.
+* **Shopping** also represents a high transaction volume.
+* Debit transactions have a higher overall value than credit transactions.
+
+---
+
+# 📱 Channel Analysis
+
+The project analyzes five transaction channels:
+
+* Mobile App
+* POS
+* Online
+* ATM
+* Branch
+
+| Channel    | Transactions | Approx. Total Value |
+| ---------- | -----------: | ------------------: |
+| Mobile App |       38,570 |            ₹113.66M |
+| POS        |       28,877 |             ₹86.62M |
+| Online     |       28,558 |             ₹82.82M |
+| ATM        |       14,317 |             ₹43.22M |
+| Branch     |        9,678 |             ₹28.97M |
+
+### Key Insight
+
+**Mobile App** has the highest transaction count and highest total transaction value among the analyzed channels.
+
+---
+
+# 👤 Customer Activity Analysis
+
+Customer-level activity was created using:
+
+* Transaction Count
+* Total Transaction Value
+* Average Transaction Value
+* Categories Used
+* Channels Used
+
+### Key Finding
+
+**466 customers have no transactions** in the transaction dataset.
+
+This group represents an opportunity for customer engagement and activation strategies.
+
+---
+
+# 📊 RFM Analysis
+
+RFM analysis was used to understand customer behavior using:
+
+### Recency
+
+How recently the customer made a transaction.
+
+### Frequency
+
+How frequently the customer transacted.
+
+### Monetary
+
+How much transaction value the customer generated.
+
+Customers were grouped into:
+
+* 🏆 Champions
+* 💎 High Value
+* 🌱 Potential
+* ⚠️ Low Value
+* 💤 No Activity
+
+RFM segmentation can help prioritize customer retention, engagement and cross-selling strategies.
+
+---
+
+# 📈 Power BI Dashboard
+
+The Power BI dashboard contains **10 analytical pages**.
+
+### 01 — Introduction
+
+Project overview, objectives, tools and analytical scope.
+
+### 02 — Executive Overview
+
+High-level KPIs covering customers, transactions and transaction value.
+
+### 03 — Customer Segmentation
+
+Analysis of customer segments, customer distribution and demographic characteristics.
+
+### 04 — Transaction Analysis
+
+Transaction value, transaction volume, transaction type and category analysis.
+
+### 05 — Channel Analysis
+
+Comparison of Mobile App, POS, Online, ATM and Branch activity.
+
+### 06 — Customer Activity
+
+Identification of active, inactive and highly engaged customers.
+
+### 07 — RFM Analysis
+
+Customer segmentation based on Recency, Frequency and Monetary behavior.
+
+### 08 — Time & Trend Analysis
+
+Analysis of transaction activity across time.
+
+### 09 — Customer Profile & Geography
+
+Customer demographics and geographic distribution.
+
+### 10 — Business Insights & Recommendations
+
+Summary of major findings and recommended business actions.
+
+---
+
+# 📸 Dashboard Preview
+
+## Executive Overview
+
+![Executive Overview](screenshots/executive_overview.png)
+
+## Customer Segmentation
+
+![Customer Segmentation](screenshots/customer_segmentation.png)
+
+## Transaction Analysis
+
+![Transaction Analysis](screenshots/transaction_analysis.png)
+
+## Channel Analysis
+
+![Channel Analysis](screenshots/channel_analysis.png)
+
+## RFM Analysis
+
+![RFM Analysis](screenshots/rfm_analysis.png)
+
+> Add the screenshots to the `screenshots/` folder using the exact filenames above.
+
+---
+
+# 🧮 Key DAX Measures
+
+### Total Transaction Value
+
+```DAX
+Total Transaction Value =
+SUM(transactions[amount])
+```
+
+### Total Transactions
+
+```DAX
+Total Transactions =
+COUNTROWS(transactions)
+```
+
+### Customer Count
+
+```DAX
+Customer Count =
+DISTINCTCOUNT(transactions[customer_id])
+```
+
+### Average Transaction Value
+
+```DAX
+Average Transaction Value =
+AVERAGE(transactions[amount])
+```
+
+### Average Value Per Customer
+
+```DAX
+Average Value Per Customer =
+DIVIDE(
+    [Total Transaction Value],
+    [Customer Count]
+)
+```
+
+### Debit Transaction Value
+
+```DAX
+Debit Transaction Value =
+CALCULATE(
+    [Total Transaction Value],
+    transactions[transaction_type] = "Debit"
+)
+```
+
+---
+
+# 🗄️ SQL Analysis
+
+The SQL analysis includes:
+
+* Customer segmentation
+* Transaction KPIs
+* Category analysis
+* Channel analysis
+* Customer activity
+* Inactive customer identification
+* Segment-level transaction analysis
+* Monthly transaction trends
+* Top customer analysis
+
+See:
+
+`sql/banking_analysis.sql`
+
+---
+
+# 🐍 Python Analysis
+
+Python was used for:
+
+* Data loading
+* Data type conversion
+* Date preparation
+* Customer segmentation analysis
+* Transaction analysis
+* Channel analysis
+* Customer activity analysis
+* RFM preparation
+
+See:
+
+`python/banking_analysis.py`
+
+---
+
+# 💡 Business Insights & Recommendations
+
+### 1. Focus on the Mass Market segment
+
+Mass Market represents the largest customer group. Targeted engagement and product recommendations can help increase customer activity and value.
+
+### 2. Reactivate inactive customers
+
+The dataset contains **466 customers with no transactions**. These customers can be targeted with appropriate activation and engagement campaigns.
+
+### 3. Strengthen digital channels
+
+The Mobile App represents the highest transaction activity and value among the analyzed channels, indicating strong digital engagement.
+
+### 4. Use RFM segmentation
+
+RFM segments can help differentiate high-value customers from inactive or lower-engagement customers and support targeted customer strategies.
+
+### 5. Monitor transaction categories
+
+Salary generates the highest transaction value, while Transfer and Shopping generate high transaction volumes. These patterns can help prioritize product and engagement strategies.
+
+---
+
+# 📁 Repository Structure
+
+```text
+banking-customer-transaction-analytics/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── sql/
+│   └── banking_analysis.sql
+│
+├── python/
+│   └── banking_analysis.py
+│
+├── powerbi/
+│   └── DAX_Measures.md
+│
+├── docs/
+│   └── data_dictionary.md
+│
+├── screenshots/
+│   ├── executive_overview.png
+│   ├── customer_segmentation.png
+│   ├── transaction_analysis.png
+│   ├── channel_analysis.png
+│   └── rfm_analysis.png
+│
+└── data/
+    └── README.md
+```
+
+---
+
+# 🔐 Data Privacy
+
+This project should contain only **synthetic, anonymized, public or otherwise authorized data**.
+
+Do not upload:
+
+* Real customer names
+* Account numbers
+* Bank account details
+* Payment information
+* Personal contact information
+* Passwords or credentials
+* Confidential banking records
+
+---
+
+# 📚 Skills Demonstrated
+
+**Data Analysis:** SQL, Python, Pandas, NumPy
+
+**Business Intelligence:** Power BI, DAX
+
+**Analytics:** Customer Segmentation, RFM Analysis, Trend Analysis, Channel Analysis
+
+**Database:** PostgreSQL
+
+**Data Visualization:** Power BI
+
+**Version Control:** GitHub
+
+---
+
+# 👨‍💻 Author
+
+## Pradeep M
+
+**Data Analyst | SQL | Python | Power BI | DAX**
+
+This project demonstrates an end-to-end approach to transforming banking data into actionable business insights.
